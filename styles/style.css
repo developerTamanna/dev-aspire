@@ -61,13 +61,29 @@ span{
     font-size: 20px;
     font-weight: 300;
 }
+.banner-btn:hover{
+    color: black;
+    background-color: #FFFFFF;
+}
 .web-development{
-    width:1140px ;
+    width:78%; 
     height:1393px ;
-    background-color: aqua;
     margin: 0px auto;
     padding: 20px;
     text-align: center;
+    
+    border-radius: 20px;
+    margin-top: 65px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.section-title{
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+.section-description{
+font-size: 16px;
+margin-top: 24px;
 }
 .box-1{
     display: flex;
@@ -80,6 +96,7 @@ span{
     box-shadow: 4px 4px 8px gray;
     text-align: justify;
     gap: 98.83px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .box-1-title{
     font-size: 24px;
@@ -95,6 +112,10 @@ span{
     font-size: 20px;
     font-weight: 300;
     border: 2px solid gray;
+}
+.box-btn:hover{
+    background-color: green;
+    color: white;
 }
 .box-2{
     display: flex;
@@ -120,4 +141,115 @@ span{
     box-shadow: 4px 4px 8px gray;
     text-align: justify;
     gap: 98.83px;
+}
+.Inspiration{
+    width:80.5%;
+    height: 100%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 125px;
+}
+.Inspiration-container{
+    height: 681px ;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin-top: 48px;
+   box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.Inspiration-container iframe{
+    width: 100%;
+    height: 550px;
+    margin: 32px 32px 32px;
+    border-radius: 16px;
+   
+}
+.Inspiration-title{
+color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+text-align: center;
+}
+.Inspiration-description{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 24px;
+}
+
+
+/* start target section */
+.target-section{
+    width:80.5%;
+    height: 100%;
+    margin: 0px auto; 
+    text-align: center;
+    margin-top: 100px;   
+}
+.target-title{
+    font-size: 30px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.target-description{
+    font-size: 16px;
+    font-weight: 400;
+   margin-top: 30px;
+}
+
+.target-container{
+ display: flex;
+ flex-direction: row;
+ gap: 24px;
+ padding: 0px;
+align-items: center;
+text-align: center;
+margin-top: 48px;
+ 
+}
+
+.target-1{
+width: 100%;
+max-width:390.6px;
+height:299px ;
+border: 1px solid black;
+text-align: justify;
+padding: 30px 30px 30px;
+align-items: center;
+border-radius: 16px;
+border-radius: 16px;
+box-sizing: border-box;
+
+}
+
+.target-1 h3{
+    color: #0D1321;
+    font-size: 15px;
+    font-weight: 600;
+}
+.target-1 p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.learn{
+    color:#0D1321;
+    margin-top: 10px;
+    display:block ;
+    font-size: 15px;
+}
+.active{
+    background: rgba(255, 76, 30, 0.05);
+}
+.active-2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.active-3{
+    background: rgba(255, 223, 0, 0.05);
 }
